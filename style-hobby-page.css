@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.about, .gallery, .table-section, .quote {
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 80%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table-section th, .table-section td {
+  border: 1px solid #30363d;
+  padding: 10px;
+  text-align: left;
+}
+
+.quote blockquote {
+  background: #161b22;
+  padding: 20px;
+  border-left: 4px solid #58a6ff;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #30363d;
+  margin-top: 20px;
+}
